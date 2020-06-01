@@ -1,6 +1,7 @@
 ################################# Default configuration ###################
 # provide your domain here
 baseURL = "https://cloudnativehub.io"
+defaultContentLanguage = "zh"
 # theme
 theme = "dot"
 # site title
@@ -94,7 +95,7 @@ link = ""
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
-weight = 1
+weight = 2
 home = "Home"
 copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020."
 
@@ -103,7 +104,7 @@ copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugo
 title = "Cloud Native Application Hub"
 subtitle = "Find advice and answers from our support team fast or get in touch"
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter terms"
+placeholder = "Have a question? Just ask here or enter terms"ßß
 
 # call to action
 [Languages.en.params.cta]
@@ -117,28 +118,28 @@ label = "contact us"
 link = "contact"
 
 
-################################### Franch Language ######################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-weight = 2
-home = "Accueil"
-copyright = "Les documents Hugo sont sous copyright © [gethugothemes](https://gethugothemes.com/) 2020."
+################################### Chinese Language ######################
+[Languages.zh]
+languageName = "中文"
+languageCode = "zh-zh"
+weight = 1
+home = "主页"
+copyright = "Copyright &copy; 2020 云原生中心 保留所有权利； copyright © [gethugothemes](https://gethugothemes.com/) 2020."
 
 # banner
-[Languages.fr.params.banner]
+[Languages.zh.params.banner]
 title = "Comment pouvons nous aider?"
-subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+subtitle = "查找Operator、Helm、K8s Packages、K8s Security、StreamNative等."
 bg_image = "images/banner.jpg"
-placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
+placeholder = "Have a question? Just ask here or enter termsß"
 
 # call to action
-[Languages.fr.params.cta]
+[Languages.zh.params.cta]
 enable = true
 title = "Vous n'avez pas trouvé de réponse à votre question?"
 content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
 # call to action button
-[Languages.fr.params.cta.button]
+[Languages.zh.params.cta.button]
 enable = true
-label = "Contactez nous"
+label = "联系我们"
 link = "contact"
