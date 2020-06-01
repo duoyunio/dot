@@ -4,7 +4,7 @@ baseURL = "https://cloudnativehub.io"
 # theme
 theme = "dot"
 # site title
-title = "Dot"
+title = "Cloud Native Hub"
 # disable language
 disableLanguages = []
 # google analytics
@@ -76,19 +76,19 @@ contact_form_action = "#" # contact form works with : https://formspree.io
 ############################## social links ##############################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/CloudNativeHub"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.twitter.com/cloudnativehub"
   
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.github.com/cloudnatvehubio"
   
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = ""
 
 ################################ English Language ######################
 [Languages.en]
@@ -100,7 +100,7 @@ copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugo
 
 # banner
 [Languages.en.params.banner]
-title = "Support Center & Knowledge base"
+title = "Cloud Native Application Hub"
 subtitle = "Find advice and answers from our support team fast or get in touch"
 bg_image = "images/banner.jpg"
 placeholder = "Have a question? Just ask here or enter terms"
