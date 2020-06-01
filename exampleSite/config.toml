@@ -162,7 +162,7 @@ copyright = "Copyright &copy; 2020 云原生中心 保留所有权利； copyrig
 # banner
 [Languages.zh.params.banner]
 title = "Cloud Native Hub"
-subtitle = "查找Operator、Helm Chart、K8s Packages & Security、StreamNative、Google AI等Hub."
+subtitle = "查找Operator、Helm、K8s Packages & Security、StreamNative、Google AI等."
 bg_image = "images/banner.jpg"
 placeholder = "搜索、体验与分享云原生应用"
 
