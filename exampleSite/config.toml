@@ -42,20 +42,9 @@ weight = 3
 name = "docs"
 hasChildren = true
 
-[[Languages.zh.menu.main]]
-weight = 3
-name = "文档"
-hasChildren = true
-
   [[menu.main]]
   parent = "docs"
   name = "Installation"
-  url = "installation"
-  weight = 1
-  
-  [[Languages.zh.menu.main]]
-  parent = "docs"
-  name = "安装"
   url = "installation"
   weight = 1
 
@@ -64,25 +53,35 @@ hasChildren = true
   name = "Billing and Pricing"
   url = "billing-pricing"
   weight = 2
-
-  [[Languages.zh.menu.main]]
-  parent = "docs"
-  name = "计费和定价"
-  url = "billing-pricing"
-  weight = 2
-  
+ 
   [[menu.main]]
   parent = "docs"
   name = "Features"
   url = "features"
   weight = 3
   
+[[Languages.zh.menu.main]]
+weight = 3
+name = "文档"
+hasChildren = true
+
+  [[Languages.zh.menu.main]]
+  parent = "docs"
+  name = "安装"
+  url = "installation"
+  weight = 1
+  
+  [[Languages.zh.menu.main]]
+  parent = "docs"
+  name = "计费和定价"
+  url = "billing-pricing"
+  weight = 2
+  
   [[Languages.zh.menu.main]]
   parent = "docs"
   name = "特征"
   url = "features"
   weight = 3
-
 
 ############################# Default Parameters ##########################
 [params]
