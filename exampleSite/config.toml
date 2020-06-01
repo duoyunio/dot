@@ -133,16 +133,17 @@ copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugo
 
 # banner
 [Languages.en.params.banner]
-title = "Cloud Native Application Hub"
-subtitle = "Find advice and answers from our support team fast or get in touch"
+title = "Cloud Native Hub"
+subtitle = "Find Operator, Helm Chart, K8s Packages & Security, StreamNative, Google AI, etc."
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter terms"
+placeholder = "Search, experience and share cloud-native applications"
 
 # call to action
 [Languages.en.params.cta]
 enable = true
-title = "Didn't find an answer to your question?"
-content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+title = "Didn't find something related to the cloud native?"
+content = "Search, experience and share cloud-native applications."
+
 # call to action button
 [Languages.en.params.cta.button]
 enable = true
@@ -160,16 +161,17 @@ copyright = "Copyright &copy; 2020 云原生中心 保留所有权利； copyrig
 
 # banner
 [Languages.zh.params.banner]
-title = "Cloud Native Application Hub"
-subtitle = "查找Operator、Helm、K8s Packages、K8s Security、StreamNative等."
+title = "Cloud Native Hub"
+subtitle = "查找Operator、Helm Chart、K8s Packages & Security、StreamNative、Google AI等Hub."
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter termsß"
+placeholder = "搜索、体验与分享云原生应用"
 
 # call to action
 [Languages.zh.params.cta]
 enable = true
-title = "Vous n'avez pas trouvé de réponse à votre question?"
-content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+title = "找不到与云原生相关的东西吗?"
+content = "请与我们联系以获取或者补充有关云原生的更多详细信息"
+
 # call to action button
 [Languages.zh.params.cta.button]
 enable = true
