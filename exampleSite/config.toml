@@ -66,19 +66,19 @@ name = "文档"
 hasChildren = true
 
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "安装"
   url = "installation"
   weight = 1
   
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "计费和定价"
   url = "billing-pricing"
   weight = 2
   
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "特征"
   url = "features"
   weight = 3
