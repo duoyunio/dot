@@ -21,8 +21,18 @@ name = "Faq"
 url = "faq"
 weight = 1
 
+[[Languages.zh.menu.main]]
+name = "问答"
+url = "faq"
+weight = 1
+
 [[menu.main]]
 name = "contact"
+url = "contact"
+weight = 2
+
+[[Languages.zh.menu.main]]
+name = "联系"
 url = "contact"
 weight = 2
 
@@ -32,9 +42,20 @@ weight = 3
 name = "docs"
 hasChildren = true
 
+[[Languages.zh.menu.main]]
+weight = 3
+name = "文档"
+hasChildren = true
+
   [[menu.main]]
   parent = "docs"
   name = "Installation"
+  url = "installation"
+  weight = 1
+  
+  [[Languages.zh.menu.main]]
+  parent = "docs"
+  name = "安装"
   url = "installation"
   weight = 1
 
@@ -44,9 +65,21 @@ hasChildren = true
   url = "billing-pricing"
   weight = 2
 
+  [[Languages.zh.menu.main]]
+  parent = "docs"
+  name = "计费和定价"
+  url = "billing-pricing"
+  weight = 2
+  
   [[menu.main]]
   parent = "docs"
   name = "Features"
+  url = "features"
+  weight = 3
+  
+  [[Languages.zh.menu.main]]
+  parent = "docs"
+  name = "特征"
   url = "features"
   weight = 3
 
@@ -128,7 +161,7 @@ copyright = "Copyright &copy; 2020 云原生中心 保留所有权利； copyrig
 
 # banner
 [Languages.zh.params.banner]
-title = "Comment pouvons nous aider?"
+title = "Cloud Native Application Hub"
 subtitle = "查找Operator、Helm、K8s Packages、K8s Security、StreamNative等."
 bg_image = "images/banner.jpg"
 placeholder = "Have a question? Just ask here or enter termsß"
