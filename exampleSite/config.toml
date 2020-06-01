@@ -104,7 +104,7 @@ copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugo
 title = "Cloud Native Application Hub"
 subtitle = "Find advice and answers from our support team fast or get in touch"
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter terms"ßß
+placeholder = "Have a question? Just ask here or enter terms"
 
 # call to action
 [Languages.en.params.cta]
