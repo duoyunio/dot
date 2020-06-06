@@ -22,7 +22,7 @@ url = "faq"
 weight = 1
 
 [[Languages.zh.menu.main]]
-name = "问答"
+name = "支持"
 url = "faq"
 weight = 1
 
